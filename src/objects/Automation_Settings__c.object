@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Automation Setting used for activating and deactivating automation flows</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Disable_Process_Builder__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used to activate or deactivate the Process builder</description>
+        <externalId>false</externalId>
+        <label>Disable Process Builder</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Trigger_Flows__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used to enable or disable flows</description>
+        <externalId>false</externalId>
+        <label>Disable Trigger Flows</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Triggers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>used for enable or disable the trigger</description>
+        <externalId>false</externalId>
+        <label>Disable Triggers</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Validations__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used to activate or deactivate the validation rules</description>
+        <externalId>false</externalId>
+        <label>Disable Validations</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Workflow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used to enable or disable the Workflows</description>
+        <externalId>false</externalId>
+        <label>Disable Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Automation Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>
